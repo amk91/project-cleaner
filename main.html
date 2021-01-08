@@ -16,6 +16,12 @@
         <div style="display: block; margin-top: 10px;"></div>
         <select id="configurationSelect">
         </select>
+        <div style="display: block; margin-top: 10px;"></div>
+        <p>Number of processed files: <span id="numberOfProcessedFiles"></span></p>
+        <p>Number of total files: <span id="numberOfTotalFiles"></span></p>
+        <progress id="processedFileProgress" max="0" value="0"></progress>
+        <button id="startButton">Start</button>
+        <button id="stopButton">Stop</button>
         <script src="mainRenderer.js"></script>
     </body>
 </html>

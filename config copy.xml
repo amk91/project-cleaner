@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <configs>
     <config>
         <id>0</id>
@@ -7,9 +7,12 @@
     <config>
         <id>1</id>
         <name>Visual C++</name>
-        <rule>*.dll</rule>
-        <rule>*.exe</rule>
-        <rule>*.lib</rule>
-        <rule>*.obj</rule>
+        <rule>**\\.dll</rule>
+        <rule>**\\.exe</rule>
+        <rule>**\\.lib</rule>
+        <rule>**\\.obj</rule>
+        <rule>**\\.obj</rule>
+        <rule>**\\.pdb</rule>
+        <rule>**\\\\bin\\\\**</rule>
     </config>
 </configs>
